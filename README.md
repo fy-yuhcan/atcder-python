@@ -1,4 +1,8 @@
-# atcoder_python
+atcoder自動提出ツール
+
+年内目標は入緑です
+
+
 ## Description  
 * Reproduction of python3 and pypy environment in atcoder on VSCode.
 * The atcoder-cli and online-judge-tools for automated testing and submission.
