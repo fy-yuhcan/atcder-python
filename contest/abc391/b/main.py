@@ -8,13 +8,11 @@ T = [input() for _ in range(M)]
 for a in range(N - M + 1):
     for b in range(N - M + 1):
         match = True
+        #二つの連想配列の中で一致している時は4重ループになる
         for i in range(M):
             for j in range(M):
                 if S[a+i][b+j] != T[i][j]:
                     match = False
-                    break
-            if not match:
-                break
         if match:
             print(a+1, b+1)
             exit()
