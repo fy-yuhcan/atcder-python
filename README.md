@@ -1,6 +1,5 @@
 atcoder自動提出ツール
-
-年内目標は入緑です
+ojt でテスト実行
 
 
 ## Description  
