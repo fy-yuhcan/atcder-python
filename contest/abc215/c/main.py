@@ -27,6 +27,6 @@ def dfs(path,used):
 
 # dfs開始
 dfs([], [False] * n)
-uniq = list(set(res))
+uniq = sorted(set(res))
 
 print(uniq[k-1])
